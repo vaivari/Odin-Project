@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Mint form</title>
+   	<link rel="stylesheet" href="formstyle.css">
+</head>
+<body>
+   <header>
+   	  <div class="mint"><a href="http://www.mint.com"><img src="https://images.mint.com/web-client/images/mint-logo-black.png"></a>
+   	  </div>
+   	  <div class="buttons">
+   	  	<button class="Sign_up">Sign up</button>
+   	  	<button class="Log_in">Log in</button>
+   	  </div>
+   	</header>
+    <div class="content">
+    	<div class="h1">
+    	<h1>Create a new account</h1>
+        </div>
+    	<form action="/login" method="post">
+    		<div class="form_main">
+    		<label> Your Email
+    		    <input type="text" name="email"> </label>
+    		<label>Confirm Email
+    		    <input type="text" name="confirm_email"> </label>
+    		<label>Country
+    		    <select name="country" >
+    			<optgroup label="Available Now:">
+    				<option value="US">United States</option>
+    				<option value="CA">Canada</option>
+    			</optgroup>
+    			<optgroup label="Not available yet. Working on it:">
+    				<option value="AF">Afghanistan</option>
+    				<option value="Albania">Albania</option>
+    				<option value="Algeria">Algeria</option>
+    		    </select></label>
+    		<label>Zip Code
+    			<input type="text" name="zip_code" class="zip"></label>
+    		<label>Password
+    			<input type="password" name="password"></label>
+    		<label>Confirm Password
+    			<input type="password" name="confirm_password"></label>	
+    	    <div class="checkbox">
+    	    	<input class="checkbox_input" type="checkbox" name="agree" value="agree">Yes, I agree to the Mint <a href="https://www.mint.com/terms" class="terms">Terms of Use.</a>
+    	    </div>
+    		      
+    	    </div>
+            <div class="bottom_button">
+    		<button class="bottom_button_in">Sign Up</button>
+    	    </div>
+    	</form>
+
+    	<aside>
+    		<div class="aside_block">
+    			<h2>Why you'll love it</h2>
+    			<ul>
+    				<li>See all your accounts in one place</li>
+    				<li>Set a budget and pay down your debt</li>
+    				<li>Find the best ways to grow your money</li>
+    				<li>Stay safe and secure</li>
+    			</ul>
+    		</div>	
+    	</aside>
+    </div>
+<footer>
+	<div class="footer_list">
+        <button class="footer_button"><a href="https://mint.lc.intuit.com/"	class="footer_link">Support Community</a></button>
+        <button class="footer_button"><a href="https://www.mint.com/terms"	class="footer_link">Terms of Use</a></button>
+        <button class="footer_button"><a href="http://www.mint.com/privacy"	class="footer_link">Privacy</a></button>
+        <button class="footer_button"><a href="http://about.intuit.com/legal/"	class="footer_link">Legal and Trademark Notices</a></button>
+        <button class="footer_button"><a href="http://about.intuit.com/"	class="footer_link">About Intuit</a></button>
+    </div>
+    
+          
+
+
+</footer>
+</body>
+</html>

@@ -1,0 +1,171 @@
+.header {
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	display: inline-block;
+	margin:0;
+	padding: 0;
+	font-family: Arial;
+	background-color: white;
+	margin-top: -10px
+}
+    .image {
+    	width: 15%%;
+	    margin: 0;
+	    float: left;
+	    height: 40px;
+
+    }
+        .image img{
+            height: 100%;
+	        margin-top: 15px;
+	    margin-left: 10px;
+
+        }
+    .input {
+	    width: 50%;
+	    float: left;
+	    margin: 0;
+    }
+        .input_in {
+     	    width: 100%;
+     	    margin: 18px 10px 10px 10px;
+	        height: 23px;
+        }
+    .buttons {
+        width:35%;
+        margin: 0;
+        text-align: right;
+	    float: left;
+	        }
+        .upload {
+        	border: 1px;
+        	background-color: #F2F2F2;
+        	width: 80px;
+        	height: 30px;
+        	margin: 20px 10px 0px 0px;
+        	
+        	
+        }
+        .sign_in {
+        	background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+		    border: 0;
+		    color: white;
+		    font-weight: bold;
+		    width: 80px;
+		    height: 30px;
+		    margin-right: 20px
+
+		    }
+.content {
+	width: 100%;
+	height: 730px;
+	margin: 0;
+	padding: 0;
+    display: inline-block;
+    background-color: #f2f2f2;
+    margin-top: 70px;
+}
+    .video {
+	    width: 60%;
+	    height: 500px;
+        margin: 0; 
+        padding: 0;
+        display: inline-block;
+        float: left;
+
+    }
+
+
+       .video_play {
+              float: left;
+              width: 100%; 
+
+          }
+        iframe {
+       	 margin: 20px 5px 10px 10px;
+       	 width: 97%;
+       }
+    .scroll {
+	    width : 38%;
+	    height: 700px;
+	    margin-top: 18px;
+	    display: inline-block;
+	    float: left;
+
+	    background-color: white;
+    }
+        .list {
+        	list-style-type: none;
+        	display: inline-block;
+
+        }
+              .list_1 {
+              	width: 40%;
+              	height: 165px;
+              	float: left;
+              	display: inline-block;
+              }
+              .list_1 > img {
+              	height: 150px;
+              	width: 80%;
+              }
+              .list_2 {
+              	width: 55%;
+              	float: left;
+              	display: inline-block;
+              	height: 165px;
+              }
+    .descr {
+	width: 58.2%;
+	height: 187px;
+    margin: 0; 
+    top: -187px;
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    background-color: white;
+}
+     .descr_1 {
+         padding: 10px;
+         font-family: Arial;
+     }
+     #bold {
+     	font-weight: bold;
+     }
+     h2 {
+     	margin: 5px;
+     	margin-left: 0;
+     }
+.footer {
+	background color: white;
+	display: inline-block;
+	height: 100px ;
+	width: 100%;
+
+}
+   .footer_Stuff {
+   	display: inline-block;
+   }
+   .footer_stuff div {
+   	display: inline-block;
+   }
+     .footer img {
+     	height: 40px;
+     	width: 80px;
+     	margin: 5px 15px 10px 15px;
+     	display: inline-block;
+     }
+     .f_but {
+     	background-color: #f2f2f2;
+     	display: inline-block;
+        box-shadow: none;
+        top: -26px;
+        position: relative;
+        padding-right: 10px;
+        margin-right: 10px;
+     }
+     .f_but button {
+     	padding-right: 10px;
+     	margin-right: 10px;
+     }

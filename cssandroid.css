@@ -1,0 +1,81 @@
+div {margin: 0; padding: 0;}
+div div {position: relative;}
+.android{
+	height: 202px; width: 156px;
+	margin: 50px auto;
+	
+}
+.head {
+    background-color: pink;
+    width: 110px; height: 50px;
+    border-radius: 110px 110px 0px 0px;	
+    transition: all 0.1s ease-in;
+}
+
+.l_eye, .r_eye {
+    background-color: blue;
+    width: 10px; height: 10px;
+    border-radius: 5px;
+    
+    position: absolute;
+    top: 21px;
+}
+.l_eye {left: 25px;}
+.r_eye {right: 25px;}
+.l_ant, .r_ant {
+    background-color: grey;
+    height: 3px; width: 25px;
+    position: absolute; top: -7px;
+    border-radius: 1,5px;
+  }
+.l_ant {
+    left: 16px;
+    transform: rotate(55deg);
+}
+.r_ant {
+    right: 16px;
+    transform: rotate(-55deg);  
+}
+.body {
+    background-color: pink;
+    height: 100px; width: 110px;
+    top: 5px;
+	
+	border-radius: 0 0 25px 25px;
+}
+.l_arm, .r_arm, .l_leg, .r_leg {
+    background-color: grey;
+	width: 25px; position: absolute;
+    -webkit-transition: all 0.1s ease-in;
+}
+.l_arm, .r_arm {
+	height: 75px;
+	border-radius: 25px;
+}
+.l_arm {
+    left: -30px;
+}
+.r_arm {
+    right: -30px;
+}
+.l_leg, .r_leg {
+    background-color: grey;
+    height: 40px;
+    border-radius: 0px 0px 25px 25px;
+top: 100px    
+}
+.l_leg {
+    left: 25px;
+    }
+.r_leg {
+    right: 25px;
+}
+.head:hover {
+	transform: rotate(-5deg) translate(-4px, -8px);
+	}
+.l_arm:hover{
+	transform: rotate(15deg) translate(-14px, 0);
+	}
+.r_arm:hover{
+		transform: rotate(-15deg) translate(15px, 0);
+	}
