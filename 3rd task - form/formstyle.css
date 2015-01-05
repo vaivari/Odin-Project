@@ -6,9 +6,9 @@ body {
 }
 header {
 	height: 100px;
-	width: 680px;
-	margin: 0px 250px 0px 330px;
-	display: inline-block;
+	width: 51%;
+	margin: 0 auto;
+    margin-bottom: 10px;
 }
     .mint {
         float: left;
@@ -41,23 +41,24 @@ header {
         	color: green;
         }
 .content {
-	width: 680px;
-	height: 750px;
-	margin: 0px 250px 0px 330px;
+	width: 51%;
+	margin: 0 auto;
 	box-shadow: 1px 3px 8px rgba(0, 0, 0, 0.2);
 }
     .h1 {
-        height: 75px;
+        height: 110px;
     }
         h1 {
     	   font-size: 28px;
     	   font-weight: bold;
-    	   margin: 45px 10px 10px 48px;
+    	   margin: 0px;
+           padding-left: 48px;
+           padding-top: 50px;
         }
     form {
     	width: 65%;
     	margin: 0px;
-    	display: inline-block;
+    	display: block;
     	float: left;
     	
     }
@@ -77,7 +78,8 @@ header {
     	width: 260px;
         height: 24px;
         border-radius: 5px;
-        box-shadow: none;
+        outline-style: none;
+        border: 1px solid #ccc;
     }
    
     .zip {
@@ -160,11 +162,12 @@ footer {
 
 }
     .footer_list {
-    	margin-top: 20px;
+    	text-align: center;
+        margin-top: 20px;
     }
     .footer_button {
          border: none;
-         font-size: 10px;
+         font-size: 11px;
          background: none;
     }
     .footer_link {
@@ -173,3 +176,10 @@ footer {
     .footer_link:hover {
         text-decoration: underline;
     }
+
+
+
+
+.clear {
+    clear: both;
+}
