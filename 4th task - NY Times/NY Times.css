@@ -1,0 +1,267 @@
+body {
+	font-family: 'nyt-franklin',arial,helvetica,sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+	margin-left: 30px;
+	/*position: fixed;
+	width: 100%;*/
+
+}
+    .buttons_l {
+    	width: 33%;
+    	float: left;
+    	display: inline-block;
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    }
+        .b-sections {
+        	padding: 7px 20px;
+        	box-shadow: 1px;
+        	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        	font-weight: 700;
+        	background-color: transparent;
+        	border: 1px solid #ccc;
+        	font-size: 11px;
+        	margin-left: -8px;
+        	border-radius: 3px;
+
+        }
+        .b-sections:hover {
+        	background-color: #f5f5f5;
+        }
+        .b-HandS {
+        	border: none;
+        	background-color: transparent;
+            font-size: 11px;
+            font-weight: 700;
+            padding: 7px 20px;
+            font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        }
+        .b-HandS:hover {
+        	background-color: #f5f5f5;
+        }
+    .titleNY {
+    	width: 34%;
+    	display: inline-block;
+    	margin-top: 10px;
+    	text-align: center;
+    }
+    .button_r {
+    	width: 30%;
+    	float: right;
+    	display: inline-block;
+    	margin-top: 10px;
+    }
+        .login {
+              background-color: #6288a5;
+              color: white;
+              border-radius: 3px;
+              font-family: 'nyt-franklin',arial,helvetica,sans-serif;
+              font-size: 11px;
+              float: right;
+              margin-right: 60px;
+              padding: 7px 8px;
+              font-weight: bold;
+              border: none;
+        }
+.theline{
+	clear: both;
+    height: 81px;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin-left: 30px;
+	margin-top: 3px;
+}
+    ul {
+    	list-style-type: none;
+    	display: inline-block;
+    	font-family: georgia,"times-new-roman",times,serif;
+        padding: 0;
+        margin: 0;
+
+    }
+    .first {
+    	font-family: georgia,"times-new-roman",times,serif;
+        border-right: 1px solid #ccc;
+        display: inline-block;
+        width: 245px;
+        height: 77px;
+        padding-right: 5px;
+    }
+        .first_a {
+        	display: inline-block;
+        	float: left;
+        	width: 70px;
+        	margin: 7px 0px 5px 8px;
+
+        }
+        .imgg {
+        	width: 65px;
+        	height: 65px;
+        }
+        .first_b {
+        	width: 155px;
+        	display: inline-block;
+        	float: right;
+        	margin-top: 15px;
+        }
+        .first_bb {
+            text-decoration: none;
+            color: #333;
+            font-size: 13px;
+            
+        }
+        .first_bb:hover {
+        	text-decoration: underline;
+        }
+    
+    .floating {
+    	clear: both;
+    }
+.section {
+    border: none;
+	border-left: 1px solid #ccc;
+	margin-left: 30px;
+    margin-top: 5px;
+    height: 1500px;
+}
+    .section_title {
+    	
+        width: 1100px;
+        margin: 0 auto;
+        height: 40px;
+        
+    }   
+        
+    .linkk {
+        text-decoration: none;
+        display: inline-block;
+        float: left;
+        width: 50%;
+        font-size: 12px;
+        font-weight: bold;
+        color: #000;
+        font-weight: 700;
+        font-family:arial,helvetica,sans-serif;
+        letter-spacing: 0.05em;
+        padding-top: 25px;
+    }
+    .linkk:hover {
+        text-decoration: underline;
+    }
+    
+    .commentss {
+    	float: right;
+        
+    	color: #666;
+    	font-size: 12px;
+    	font-family: "nyt-franklin",arial,helvetica,sans-serif;
+        letter-spacing: 0.05em;
+        margin: 0px;
+        text-align: right;
+        padding-top: 24px;
+        padding-right: 44px;
+    }
+    .main_title {
+        width: 1100px;
+        margin: 0 auto;
+        height: 45px;
+        display: block;
+        border: none;
+        border-bottom: 1px solid #ccc;
+    }
+        h1 {
+            font-size: 28px;
+            font-family: arial ,helvetica,sans-serif; 
+            font-style: italic;
+            
+        }
+    .title_bottom {
+         width: 1100px;
+         margin: 0 auto;
+         font-size: 11px;
+         margin-top: 12px;
+    }
+        .title_bottom_a {
+            font-weight: bold;
+        }
+        .title_bottom_b {
+            padding-left: 9px;
+        }
+        .guy, title {
+            text-decoration: none;
+            color: #333;
+
+        }
+        .guy:hover {
+            text-decoration: underline;
+        }
+    .main_image {
+        width: 1100px;
+         margin: 0 auto;
+    }
+        .image_true {
+            width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+    .under_image {
+        
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 5px;
+
+    }
+        .under_image_a {
+             font-size: 13px;
+             color: #666;
+             width: 630px;
+        }
+        .under_image_b {
+            font-size: 11px;
+            color: #999;
+            margin-top: 3px;
+        }
+    .text {
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+        .list_vertical {
+            width: 15%;
+            float: left;
+            display: inline-block;
+        }
+            .lv {
+                list-style-type: none;
+                margin-top: 15px;
+            }
+                .lv_li {
+                    color:#666;
+                    font-size: 12px;
+                    padding: 15px 30px;
+                    border-bottom: 1px solid #ccc;
+                 }
+                 .lv_lii {
+                    color:#666;
+                    font-size: 12px;
+                    padding: 15px 30px;
+                 }
+        .text_part1 {
+            width: 85%;
+            float: right;
+            display: inline-block;
+        }
+            .text_a {
+                width: 60%;
+                padding-bottom: 10px;
+                color: #333;
+                font-family: georgia;
+                line-height: 21px;
+            }
