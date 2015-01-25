@@ -1,0 +1,122 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family:  "Myriad Set Pro","Lucida Grande","Helvetica Neue","Arial","Verdana","sans-serif";
+
+}
+    header {
+   	   background-color: rgba(0,0,0,0.6);
+   	   height: 45px;
+   	   margin: 0px;
+   }
+        .header_list {
+        	list-style-type: none;
+            text-align: center;
+            margin: 0px;
+        }
+            .hd_l {
+            	display: inline-block;
+            	color: #e9e9e9;
+                padding-right: 70px;
+                margin-top: 15px;
+                font-size: 15px; 
+
+            }
+            .hd_l:hover {
+            	color: #ccc;
+            }
+            .linkk {
+            	text-decoration: none;
+            	color: inherit;
+            }
+    section {
+    	margin: 0;
+    	padding: 0;
+    }
+        .header1 {
+        	font-size: 65px;
+        	color: #333 ;
+        	text-align: center;
+        	font-weight: normal;
+            margin-top: 20px;
+            margin-bottom: 7px;
+        }
+        .header2 {
+        	font-size: 21px;
+        	text-align: center;
+        	color: rgba(0,0,0,0.6);
+        	font-weight: normal;
+        	margin: 0px;
+        }
+        .header3 {
+        	font-size: 21px;
+        	text-align: center;
+        	color: #08c;
+        	font-weight: normal;
+        	margin: 0px;
+        	margin-top: 7px;
+        }
+        .header3:hover {
+        	color: rgba(0,0,0,0.6);
+        }
+        .big-image {
+        	background-image: url("http://images.apple.com/v/home/bl/images/new_year_large.png");
+            margin-left: -70px;
+            display: block;
+            background-repeat: no-repeat;
+            width: 150%;
+            height: 400px;
+            position: relative;
+        }
+        
+        .bottom_list {
+        	width: 100%;
+        }
+        	.bottom_list > a {
+        		float: left;
+        		width: 24.2%;
+        		margin-left: 1%;
+        	}
+        	.bottom_list > a:first-child {
+        		margin-left: 0;
+        	}
+            .bt_random {
+            	display: inline-block;
+            	background-repeat: no-repeat;
+                height: 200px;
+                width: 100%;
+                background-position: center;
+                background-size: 640px 200px;
+            }
+    footer {
+    	width: 990px;
+    	height: 80px;
+    	margin: 0 auto;
+    	padding: 0;
+    	font-size: 11px;
+    	color: #999;
+    } 
+        .ft_1 {
+        	width: 50%;
+        	
+        	float: left;
+        	
+        }
+        .ft_2 {
+        	width: 50%;
+        	float: right;
+
+        }
+        .ft_list {
+        	list-style-type: none;
+        	text-align: right;
+        }
+            .ft_listlist {
+            	display: inline-block;
+            	border-right: 1px solid #e9e9e9;
+            	padding: 0px 5px;
+
+            }
+            .ft_listlist:hover {
+                 text-decoration: underline;
+            }

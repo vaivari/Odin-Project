@@ -4,6 +4,7 @@ body {
 	padding: 0;
 }
 
+
 header {
 	border: none;
 	border-bottom: 1px solid #ccc;
@@ -27,6 +28,7 @@ header {
         	font-weight: 700;
         	background-color: transparent;
         	border: 1px solid #ccc;
+           
         	font-size: 11px;
         	margin-left: -8px;
         	border-radius: 3px;
@@ -129,7 +131,7 @@ header {
 	border-left: 1px solid #ccc;
 	margin-left: 30px;
     margin-top: 5px;
-    height: 1500px;
+    height: 4500px;
 }
     .section_title {
     	
@@ -265,3 +267,153 @@ header {
                 font-family: georgia;
                 line-height: 21px;
             }
+        .title_png {
+            width: 940px;
+            margin: 0 auto;
+            border-top: 1px solid #ccc;   
+        }
+            .title_png_h2 {
+                font-family: georgia;
+                color: #333;
+                font-size: 18px;
+                margin-top: 20px;
+                margin-bottom: 4px;
+            }
+            .title_png_p {
+                font-family: georgia; 
+                color: #666;
+                font-size: 14px;
+                margin-top: 2px;
+            }
+
+            .g-aiImg {
+                width: 100%;
+            }
+
+        .bolder {
+            font-weight: bold;
+        }
+        .p_1 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -430px 30px 50px 80px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_2 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -430px 30px 50px 320px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_3 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -430px 30px 50px 560px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_4 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -430px 30px 50px 800px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_5 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -150px 30px 50px 80px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_6 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -150px 30px 50px 320px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_7 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -150px 30px 50px 560px;
+            line-height: 18px;
+            color: #333;
+        }
+        .p_8 {
+            position: absolute;
+            width: 225px;
+            font-size: 12px;
+            margin: -150px 30px 50px 800px;
+            line-height: 18px;
+            color: #333;
+        }
+
+        .bottom_png {
+            width: 940px;
+            margin: 0 auto;
+            border-bottom: 1px solid #ccc;
+            font-size: 10px;
+            color: #666;
+        }
+
+
+         .text_2 {
+                padding-bottom: 10px;
+                color: #333;
+                font-family: georgia;
+                line-height: 21px;
+                margin-top: 20px;
+                margin-left: 150px;
+                width: 500px;
+            }
+    .videoo {
+        width: 870px;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+        .videoo_v {
+            width: 66%;
+            display: inline-block;
+            float: left; 
+        }
+            .videooo {
+                width: 100%;
+            }
+        .videoo_t {
+            width: 14%;
+            display: inline-block;
+            float: right bottom;
+            margin-top: 177px;
+            line-height: 18px; 
+        }
+              .videoo_t_1 {
+                color: #666;
+                font-size: 13px;
+                margin-bottom: 0px;
+              }
+              .videoo_t_2 {
+                color: #999;
+                font-size: 11px;
+                margin-top: 0px;
+              }
+        .second_image {
+            margin-left: 120px;
+            margin-top: 30px;
+            height: 370px;
+        }
+        .second_image_t {
+            width: 556px;
+            margin-left: 120px;
+            line-height: 16px;
+            margin-top: -8px;
+        }
